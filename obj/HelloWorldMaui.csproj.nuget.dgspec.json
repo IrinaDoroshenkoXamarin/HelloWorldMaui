@@ -53,6 +53,10 @@
         "net6.0-android31.0": {
           "targetAlias": "net6.0-android",
           "dependencies": {
+            "FreshMvvm.Maui": {
+              "target": "Package",
+              "version": "[0.0.1, )"
+            },
             "Microsoft.Maui.Controls.Build.Tasks": {
               "target": "Package",
               "version": "[6.0.101-preview.11.2349, )",
@@ -120,6 +124,10 @@
         "net6.0-ios15.0": {
           "targetAlias": "net6.0-ios",
           "dependencies": {
+            "FreshMvvm.Maui": {
+              "target": "Package",
+              "version": "[0.0.1, )"
+            },
             "Microsoft.Maui.Controls.Build.Tasks": {
               "target": "Package",
               "version": "[6.0.101-preview.11.2349, )",
@@ -173,6 +181,10 @@
         "net6.0-maccatalyst15.0": {
           "targetAlias": "net6.0-maccatalyst",
           "dependencies": {
+            "FreshMvvm.Maui": {
+              "target": "Package",
+              "version": "[0.0.1, )"
+            },
             "Microsoft.Maui.Controls.Build.Tasks": {
               "target": "Package",
               "version": "[6.0.101-preview.11.2349, )",
