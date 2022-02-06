@@ -2,6 +2,22 @@
   "version": 3,
   "targets": {
     "net6.0-android31.0": {
+      "FreshMvvm.Maui/0.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls.Build.Tasks": "6.0.101-preview.10.2068",
+          "Microsoft.Maui.Dependencies": "6.0.101-preview.10.2068",
+          "Microsoft.Maui.Extensions": "6.0.101-preview.10.2068",
+          "Microsoft.Maui.Resizetizer.Sdk": "6.0.101-preview.10.2068",
+          "System.Reactive": "5.0.0"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/FreshMvvm.Maui.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/FreshMvvm.Maui.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -481,6 +497,18 @@
             "assetType": "runtime",
             "rid": "win"
           }
+        }
+      },
+      "System.Reactive/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/System.Reactive.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/System.Reactive.dll": {}
+        },
+        "build": {
+          "buildTransitive/net5.0/_._": {}
         }
       },
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {
@@ -1515,6 +1543,22 @@
       }
     },
     "net6.0-android31.0/android-arm": {
+      "FreshMvvm.Maui/0.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls.Build.Tasks": "6.0.101-preview.10.2068",
+          "Microsoft.Maui.Dependencies": "6.0.101-preview.10.2068",
+          "Microsoft.Maui.Extensions": "6.0.101-preview.10.2068",
+          "Microsoft.Maui.Resizetizer.Sdk": "6.0.101-preview.10.2068",
+          "System.Reactive": "5.0.0"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/FreshMvvm.Maui.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/FreshMvvm.Maui.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -1984,6 +2028,18 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.Reactive/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/System.Reactive.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/System.Reactive.dll": {}
+        },
+        "build": {
+          "buildTransitive/net5.0/_._": {}
         }
       },
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {
@@ -3012,6 +3068,22 @@
       }
     },
     "net6.0-android31.0/android-arm64": {
+      "FreshMvvm.Maui/0.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls.Build.Tasks": "6.0.101-preview.10.2068",
+          "Microsoft.Maui.Dependencies": "6.0.101-preview.10.2068",
+          "Microsoft.Maui.Extensions": "6.0.101-preview.10.2068",
+          "Microsoft.Maui.Resizetizer.Sdk": "6.0.101-preview.10.2068",
+          "System.Reactive": "5.0.0"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/FreshMvvm.Maui.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/FreshMvvm.Maui.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -3481,6 +3553,18 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.Reactive/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/System.Reactive.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/System.Reactive.dll": {}
+        },
+        "build": {
+          "buildTransitive/net5.0/_._": {}
         }
       },
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {
@@ -4509,6 +4593,22 @@
       }
     },
     "net6.0-android31.0/android-x64": {
+      "FreshMvvm.Maui/0.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls.Build.Tasks": "6.0.101-preview.10.2068",
+          "Microsoft.Maui.Dependencies": "6.0.101-preview.10.2068",
+          "Microsoft.Maui.Extensions": "6.0.101-preview.10.2068",
+          "Microsoft.Maui.Resizetizer.Sdk": "6.0.101-preview.10.2068",
+          "System.Reactive": "5.0.0"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/FreshMvvm.Maui.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/FreshMvvm.Maui.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -4978,6 +5078,18 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.Reactive/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/System.Reactive.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/System.Reactive.dll": {}
+        },
+        "build": {
+          "buildTransitive/net5.0/_._": {}
         }
       },
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {
@@ -6006,6 +6118,22 @@
       }
     },
     "net6.0-android31.0/android-x86": {
+      "FreshMvvm.Maui/0.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls.Build.Tasks": "6.0.101-preview.10.2068",
+          "Microsoft.Maui.Dependencies": "6.0.101-preview.10.2068",
+          "Microsoft.Maui.Extensions": "6.0.101-preview.10.2068",
+          "Microsoft.Maui.Resizetizer.Sdk": "6.0.101-preview.10.2068",
+          "System.Reactive": "5.0.0"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/FreshMvvm.Maui.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/FreshMvvm.Maui.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -6475,6 +6603,18 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.Reactive/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/System.Reactive.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/System.Reactive.dll": {}
+        },
+        "build": {
+          "buildTransitive/net5.0/_._": {}
         }
       },
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {
@@ -7503,6 +7643,22 @@
       }
     },
     "net6.0-android31.0/iossimulator-x64": {
+      "FreshMvvm.Maui/0.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls.Build.Tasks": "6.0.101-preview.10.2068",
+          "Microsoft.Maui.Dependencies": "6.0.101-preview.10.2068",
+          "Microsoft.Maui.Extensions": "6.0.101-preview.10.2068",
+          "Microsoft.Maui.Resizetizer.Sdk": "6.0.101-preview.10.2068",
+          "System.Reactive": "5.0.0"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/FreshMvvm.Maui.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/FreshMvvm.Maui.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -7972,6 +8128,18 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.Reactive/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/System.Reactive.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/System.Reactive.dll": {}
+        },
+        "build": {
+          "buildTransitive/net5.0/_._": {}
         }
       },
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {
@@ -9000,6 +9168,22 @@
       }
     },
     "net6.0-android31.0/maccatalyst-x64": {
+      "FreshMvvm.Maui/0.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls.Build.Tasks": "6.0.101-preview.10.2068",
+          "Microsoft.Maui.Dependencies": "6.0.101-preview.10.2068",
+          "Microsoft.Maui.Extensions": "6.0.101-preview.10.2068",
+          "Microsoft.Maui.Resizetizer.Sdk": "6.0.101-preview.10.2068",
+          "System.Reactive": "5.0.0"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/FreshMvvm.Maui.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/FreshMvvm.Maui.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -9469,6 +9653,18 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.Reactive/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/System.Reactive.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/System.Reactive.dll": {}
+        },
+        "build": {
+          "buildTransitive/net5.0/_._": {}
         }
       },
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {
@@ -10497,6 +10693,22 @@
       }
     },
     "net6.0-ios15.0": {
+      "FreshMvvm.Maui/0.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls.Build.Tasks": "6.0.101-preview.10.2068",
+          "Microsoft.Maui.Dependencies": "6.0.101-preview.10.2068",
+          "Microsoft.Maui.Extensions": "6.0.101-preview.10.2068",
+          "Microsoft.Maui.Resizetizer.Sdk": "6.0.101-preview.10.2068",
+          "System.Reactive": "5.0.0"
+        },
+        "compile": {
+          "lib/net6.0-ios15.0/FreshMvvm.Maui.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-ios15.0/FreshMvvm.Maui.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -10967,6 +11179,18 @@
             "assetType": "runtime",
             "rid": "win"
           }
+        }
+      },
+      "System.Reactive/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/System.Reactive.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/System.Reactive.dll": {}
+        },
+        "build": {
+          "buildTransitive/net5.0/_._": {}
         }
       },
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {
@@ -11020,6 +11244,22 @@
       }
     },
     "net6.0-ios15.0/android-arm": {
+      "FreshMvvm.Maui/0.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls.Build.Tasks": "6.0.101-preview.10.2068",
+          "Microsoft.Maui.Dependencies": "6.0.101-preview.10.2068",
+          "Microsoft.Maui.Extensions": "6.0.101-preview.10.2068",
+          "Microsoft.Maui.Resizetizer.Sdk": "6.0.101-preview.10.2068",
+          "System.Reactive": "5.0.0"
+        },
+        "compile": {
+          "lib/net6.0-ios15.0/FreshMvvm.Maui.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-ios15.0/FreshMvvm.Maui.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -11480,6 +11720,18 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.Reactive/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/System.Reactive.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/System.Reactive.dll": {}
+        },
+        "build": {
+          "buildTransitive/net5.0/_._": {}
         }
       },
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {
@@ -11527,6 +11779,22 @@
       }
     },
     "net6.0-ios15.0/android-arm64": {
+      "FreshMvvm.Maui/0.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls.Build.Tasks": "6.0.101-preview.10.2068",
+          "Microsoft.Maui.Dependencies": "6.0.101-preview.10.2068",
+          "Microsoft.Maui.Extensions": "6.0.101-preview.10.2068",
+          "Microsoft.Maui.Resizetizer.Sdk": "6.0.101-preview.10.2068",
+          "System.Reactive": "5.0.0"
+        },
+        "compile": {
+          "lib/net6.0-ios15.0/FreshMvvm.Maui.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-ios15.0/FreshMvvm.Maui.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -11987,6 +12255,18 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.Reactive/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/System.Reactive.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/System.Reactive.dll": {}
+        },
+        "build": {
+          "buildTransitive/net5.0/_._": {}
         }
       },
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {
@@ -12034,6 +12314,22 @@
       }
     },
     "net6.0-ios15.0/android-x64": {
+      "FreshMvvm.Maui/0.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls.Build.Tasks": "6.0.101-preview.10.2068",
+          "Microsoft.Maui.Dependencies": "6.0.101-preview.10.2068",
+          "Microsoft.Maui.Extensions": "6.0.101-preview.10.2068",
+          "Microsoft.Maui.Resizetizer.Sdk": "6.0.101-preview.10.2068",
+          "System.Reactive": "5.0.0"
+        },
+        "compile": {
+          "lib/net6.0-ios15.0/FreshMvvm.Maui.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-ios15.0/FreshMvvm.Maui.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -12494,6 +12790,18 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.Reactive/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/System.Reactive.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/System.Reactive.dll": {}
+        },
+        "build": {
+          "buildTransitive/net5.0/_._": {}
         }
       },
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {
@@ -12541,6 +12849,22 @@
       }
     },
     "net6.0-ios15.0/android-x86": {
+      "FreshMvvm.Maui/0.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls.Build.Tasks": "6.0.101-preview.10.2068",
+          "Microsoft.Maui.Dependencies": "6.0.101-preview.10.2068",
+          "Microsoft.Maui.Extensions": "6.0.101-preview.10.2068",
+          "Microsoft.Maui.Resizetizer.Sdk": "6.0.101-preview.10.2068",
+          "System.Reactive": "5.0.0"
+        },
+        "compile": {
+          "lib/net6.0-ios15.0/FreshMvvm.Maui.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-ios15.0/FreshMvvm.Maui.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -13001,6 +13325,18 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.Reactive/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/System.Reactive.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/System.Reactive.dll": {}
+        },
+        "build": {
+          "buildTransitive/net5.0/_._": {}
         }
       },
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {
@@ -13048,6 +13384,22 @@
       }
     },
     "net6.0-ios15.0/iossimulator-x64": {
+      "FreshMvvm.Maui/0.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls.Build.Tasks": "6.0.101-preview.10.2068",
+          "Microsoft.Maui.Dependencies": "6.0.101-preview.10.2068",
+          "Microsoft.Maui.Extensions": "6.0.101-preview.10.2068",
+          "Microsoft.Maui.Resizetizer.Sdk": "6.0.101-preview.10.2068",
+          "System.Reactive": "5.0.0"
+        },
+        "compile": {
+          "lib/net6.0-ios15.0/FreshMvvm.Maui.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-ios15.0/FreshMvvm.Maui.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -13508,6 +13860,18 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.Reactive/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/System.Reactive.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/System.Reactive.dll": {}
+        },
+        "build": {
+          "buildTransitive/net5.0/_._": {}
         }
       },
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {
@@ -13555,6 +13919,22 @@
       }
     },
     "net6.0-ios15.0/maccatalyst-x64": {
+      "FreshMvvm.Maui/0.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls.Build.Tasks": "6.0.101-preview.10.2068",
+          "Microsoft.Maui.Dependencies": "6.0.101-preview.10.2068",
+          "Microsoft.Maui.Extensions": "6.0.101-preview.10.2068",
+          "Microsoft.Maui.Resizetizer.Sdk": "6.0.101-preview.10.2068",
+          "System.Reactive": "5.0.0"
+        },
+        "compile": {
+          "lib/net6.0-ios15.0/FreshMvvm.Maui.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-ios15.0/FreshMvvm.Maui.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -14017,6 +14397,18 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "System.Reactive/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/System.Reactive.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/System.Reactive.dll": {}
+        },
+        "build": {
+          "buildTransitive/net5.0/_._": {}
+        }
+      },
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {
         "type": "package",
         "compile": {
@@ -14062,6 +14454,22 @@
       }
     },
     "net6.0-maccatalyst15.0": {
+      "FreshMvvm.Maui/0.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls.Build.Tasks": "6.0.101-preview.10.2068",
+          "Microsoft.Maui.Dependencies": "6.0.101-preview.10.2068",
+          "Microsoft.Maui.Extensions": "6.0.101-preview.10.2068",
+          "Microsoft.Maui.Resizetizer.Sdk": "6.0.101-preview.10.2068",
+          "System.Reactive": "5.0.0"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst15.0/FreshMvvm.Maui.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst15.0/FreshMvvm.Maui.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -14534,6 +14942,18 @@
           }
         }
       },
+      "System.Reactive/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/System.Reactive.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/System.Reactive.dll": {}
+        },
+        "build": {
+          "buildTransitive/net5.0/_._": {}
+        }
+      },
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {
         "type": "package",
         "compile": {
@@ -14585,6 +15005,22 @@
       }
     },
     "net6.0-maccatalyst15.0/android-arm": {
+      "FreshMvvm.Maui/0.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls.Build.Tasks": "6.0.101-preview.10.2068",
+          "Microsoft.Maui.Dependencies": "6.0.101-preview.10.2068",
+          "Microsoft.Maui.Extensions": "6.0.101-preview.10.2068",
+          "Microsoft.Maui.Resizetizer.Sdk": "6.0.101-preview.10.2068",
+          "System.Reactive": "5.0.0"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst15.0/FreshMvvm.Maui.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst15.0/FreshMvvm.Maui.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -15045,6 +15481,18 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.Reactive/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/System.Reactive.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/System.Reactive.dll": {}
+        },
+        "build": {
+          "buildTransitive/net5.0/_._": {}
         }
       },
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {
@@ -15092,6 +15540,22 @@
       }
     },
     "net6.0-maccatalyst15.0/android-arm64": {
+      "FreshMvvm.Maui/0.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls.Build.Tasks": "6.0.101-preview.10.2068",
+          "Microsoft.Maui.Dependencies": "6.0.101-preview.10.2068",
+          "Microsoft.Maui.Extensions": "6.0.101-preview.10.2068",
+          "Microsoft.Maui.Resizetizer.Sdk": "6.0.101-preview.10.2068",
+          "System.Reactive": "5.0.0"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst15.0/FreshMvvm.Maui.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst15.0/FreshMvvm.Maui.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -15552,6 +16016,18 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.Reactive/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/System.Reactive.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/System.Reactive.dll": {}
+        },
+        "build": {
+          "buildTransitive/net5.0/_._": {}
         }
       },
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {
@@ -15599,6 +16075,22 @@
       }
     },
     "net6.0-maccatalyst15.0/android-x64": {
+      "FreshMvvm.Maui/0.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls.Build.Tasks": "6.0.101-preview.10.2068",
+          "Microsoft.Maui.Dependencies": "6.0.101-preview.10.2068",
+          "Microsoft.Maui.Extensions": "6.0.101-preview.10.2068",
+          "Microsoft.Maui.Resizetizer.Sdk": "6.0.101-preview.10.2068",
+          "System.Reactive": "5.0.0"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst15.0/FreshMvvm.Maui.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst15.0/FreshMvvm.Maui.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -16059,6 +16551,18 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.Reactive/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/System.Reactive.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/System.Reactive.dll": {}
+        },
+        "build": {
+          "buildTransitive/net5.0/_._": {}
         }
       },
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {
@@ -16106,6 +16610,22 @@
       }
     },
     "net6.0-maccatalyst15.0/android-x86": {
+      "FreshMvvm.Maui/0.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls.Build.Tasks": "6.0.101-preview.10.2068",
+          "Microsoft.Maui.Dependencies": "6.0.101-preview.10.2068",
+          "Microsoft.Maui.Extensions": "6.0.101-preview.10.2068",
+          "Microsoft.Maui.Resizetizer.Sdk": "6.0.101-preview.10.2068",
+          "System.Reactive": "5.0.0"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst15.0/FreshMvvm.Maui.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst15.0/FreshMvvm.Maui.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -16566,6 +17086,18 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.Reactive/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/System.Reactive.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/System.Reactive.dll": {}
+        },
+        "build": {
+          "buildTransitive/net5.0/_._": {}
         }
       },
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {
@@ -16613,6 +17145,22 @@
       }
     },
     "net6.0-maccatalyst15.0/iossimulator-x64": {
+      "FreshMvvm.Maui/0.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls.Build.Tasks": "6.0.101-preview.10.2068",
+          "Microsoft.Maui.Dependencies": "6.0.101-preview.10.2068",
+          "Microsoft.Maui.Extensions": "6.0.101-preview.10.2068",
+          "Microsoft.Maui.Resizetizer.Sdk": "6.0.101-preview.10.2068",
+          "System.Reactive": "5.0.0"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst15.0/FreshMvvm.Maui.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst15.0/FreshMvvm.Maui.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -17073,6 +17621,18 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.Reactive/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/System.Reactive.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/System.Reactive.dll": {}
+        },
+        "build": {
+          "buildTransitive/net5.0/_._": {}
         }
       },
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {
@@ -17120,6 +17680,22 @@
       }
     },
     "net6.0-maccatalyst15.0/maccatalyst-x64": {
+      "FreshMvvm.Maui/0.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls.Build.Tasks": "6.0.101-preview.10.2068",
+          "Microsoft.Maui.Dependencies": "6.0.101-preview.10.2068",
+          "Microsoft.Maui.Extensions": "6.0.101-preview.10.2068",
+          "Microsoft.Maui.Resizetizer.Sdk": "6.0.101-preview.10.2068",
+          "System.Reactive": "5.0.0"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst15.0/FreshMvvm.Maui.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst15.0/FreshMvvm.Maui.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -17580,6 +18156,18 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.Reactive/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/System.Reactive.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/System.Reactive.dll": {}
+        },
+        "build": {
+          "buildTransitive/net5.0/_._": {}
         }
       },
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {
@@ -17628,6 +18216,23 @@
     }
   },
   "libraries": {
+    "FreshMvvm.Maui/0.0.1": {
+      "sha512": "6ioKNoH91fnhzDfilzjY9WPNvUhaur45WT+uZhH2JUBAckmUnV4hU0x9I/VV+dPMFkhpcLSJFGdCaZEz6xM5uA==",
+      "type": "package",
+      "path": "freshmvvm.maui/0.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "freshmvvm.maui.0.0.1.nupkg.sha512",
+        "freshmvvm.maui.nuspec",
+        "lib/net6.0-android31.0/FreshMvvm.Maui.aar",
+        "lib/net6.0-android31.0/FreshMvvm.Maui.dll",
+        "lib/net6.0-android31.0/FreshMvvm.Maui.xml",
+        "lib/net6.0-ios15.0/FreshMvvm.Maui.dll",
+        "lib/net6.0-maccatalyst15.0/FreshMvvm.Maui.dll",
+        "lib/net6.0/FreshMvvm.Maui.dll"
+      ]
+    },
     "Microsoft.Extensions.Configuration/6.0.0": {
       "sha512": "tq2wXyh3fL17EMF2bXgRhU7JrbO3on93MRKYxzz4JzzvuGSA1l0W3GI9/tl8EO89TH+KWEymP7bcFway6z9fXg==",
       "type": "package",
@@ -18402,6 +19007,35 @@
         "system.diagnostics.eventlog.6.0.0.nupkg.sha512",
         "system.diagnostics.eventlog.nuspec",
         "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Reactive/5.0.0": {
+      "sha512": "erBZjkQHWL9jpasCE/0qKAryzVBJFxGHVBAvgRN1bzM0q2s1S4oYREEEL0Vb+1kA/6BKb5FjUZMp5VXmy+gzkQ==",
+      "type": "package",
+      "path": "system.reactive/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net5.0/_._",
+        "build/netcoreapp3.1/System.Reactive.dll",
+        "build/netcoreapp3.1/System.Reactive.targets",
+        "build/netcoreapp3.1/System.Reactive.xml",
+        "buildTransitive/net5.0/_._",
+        "buildTransitive/netcoreapp3.1/System.Reactive.targets",
+        "lib/net472/System.Reactive.dll",
+        "lib/net472/System.Reactive.xml",
+        "lib/net5.0-windows10.0.19041/System.Reactive.dll",
+        "lib/net5.0-windows10.0.19041/System.Reactive.xml",
+        "lib/net5.0/System.Reactive.dll",
+        "lib/net5.0/System.Reactive.xml",
+        "lib/netcoreapp3.1/_._",
+        "lib/netstandard2.0/System.Reactive.dll",
+        "lib/netstandard2.0/System.Reactive.xml",
+        "lib/uap10.0.16299/System.Reactive.dll",
+        "lib/uap10.0.16299/System.Reactive.pri",
+        "lib/uap10.0.16299/System.Reactive.xml",
+        "system.reactive.5.0.0.nupkg.sha512",
+        "system.reactive.nuspec"
       ]
     },
     "System.Runtime.CompilerServices.Unsafe/6.0.0": {
@@ -19846,18 +20480,21 @@
   },
   "projectFileDependencyGroups": {
     "net6.0-android31.0": [
+      "FreshMvvm.Maui >= 0.0.1",
       "Microsoft.Maui.Controls.Build.Tasks >= 6.0.101-preview.11.2349",
       "Microsoft.Maui.Dependencies >= 6.0.101-preview.11.2349",
       "Microsoft.Maui.Extensions >= 6.0.101-preview.11.2349",
       "Microsoft.Maui.Resizetizer.Sdk >= 6.0.101-preview.11.2349"
     ],
     "net6.0-ios15.0": [
+      "FreshMvvm.Maui >= 0.0.1",
       "Microsoft.Maui.Controls.Build.Tasks >= 6.0.101-preview.11.2349",
       "Microsoft.Maui.Dependencies >= 6.0.101-preview.11.2349",
       "Microsoft.Maui.Extensions >= 6.0.101-preview.11.2349",
       "Microsoft.Maui.Resizetizer.Sdk >= 6.0.101-preview.11.2349"
     ],
     "net6.0-maccatalyst15.0": [
+      "FreshMvvm.Maui >= 0.0.1",
       "Microsoft.Maui.Controls.Build.Tasks >= 6.0.101-preview.11.2349",
       "Microsoft.Maui.Dependencies >= 6.0.101-preview.11.2349",
       "Microsoft.Maui.Extensions >= 6.0.101-preview.11.2349",
@@ -19917,6 +20554,10 @@
       "net6.0-android31.0": {
         "targetAlias": "net6.0-android",
         "dependencies": {
+          "FreshMvvm.Maui": {
+            "target": "Package",
+            "version": "[0.0.1, )"
+          },
           "Microsoft.Maui.Controls.Build.Tasks": {
             "target": "Package",
             "version": "[6.0.101-preview.11.2349, )",
@@ -19984,6 +20625,10 @@
       "net6.0-ios15.0": {
         "targetAlias": "net6.0-ios",
         "dependencies": {
+          "FreshMvvm.Maui": {
+            "target": "Package",
+            "version": "[0.0.1, )"
+          },
           "Microsoft.Maui.Controls.Build.Tasks": {
             "target": "Package",
             "version": "[6.0.101-preview.11.2349, )",
@@ -20037,6 +20682,10 @@
       "net6.0-maccatalyst15.0": {
         "targetAlias": "net6.0-maccatalyst",
         "dependencies": {
+          "FreshMvvm.Maui": {
+            "target": "Package",
+            "version": "[0.0.1, )"
+          },
           "Microsoft.Maui.Controls.Build.Tasks": {
             "target": "Package",
             "version": "[6.0.101-preview.11.2349, )",
